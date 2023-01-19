@@ -11,9 +11,6 @@
 }
 
 /* body */
-body {
-    background-color: ;
-}
 .content-body {
     display: block;
     margin: 0 auto;
@@ -33,8 +30,6 @@ body {
 header {
     position: relative;
     padding-bottom: 100px;
-
-    display: ;
 }
 .img-capa-header {
     width: 100%;
