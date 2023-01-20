@@ -33,7 +33,7 @@ header {
 }
 .img-capa-header {
     width: 100%;
-    height: calc(100vw/4);
+    height: calc(100vw/5);
     border-radius: 0 0 20px 20px;
 }
 .img-profile-header {
