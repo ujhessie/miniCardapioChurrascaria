@@ -44,8 +44,7 @@ header {
 }
 .img-capa-header {
     width: 100%;
-    max-width: px;
-    height: calc(100vw/7);
+    height: calc(100%/7);
     border-radius: 0 0 10px 10px;
 }
 
