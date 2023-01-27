@@ -44,7 +44,6 @@ header {
 }
 .img-capa-header {
     width: 100%;
-    height: calc(100%/7);
     border-radius: 0 0 10px 10px;
 }
 
@@ -78,7 +77,7 @@ hr {
     color: #555;
     text-decoration: none;
     /* font-weight: bold; */
-    font-size: 1.2rem;
+    font-size: 10pt;
     text-transform: uppercase;
     /* background-color: rgb(158, 158, 158); */
     padding: 5px 20px;
@@ -98,61 +97,55 @@ h2 {
     font-size: 14pt;
     margin-top: 10px;
 }
-.content-produtos {
-    
-}
+
+
+
+/* produto */
 .produto {
-    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
     border-radius: 10px;
-    width: 98%;
-    /* max-width: 500px; */
-    margin: 20px auto;
+    border: 1px solid #bbb;
+    padding: 5px;
+}
+.content-produto {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    padding: 10px;
-    box-shadow: 0px 0px 3px rgba(85, 85, 85, 0.514);
 }
-
-.detalhes-produto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
 .nome-produto {
-    font-size: 12pt;
-    /* font-weight: bold; */
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 0 5px 0;
-}
-
-.desc-produto {
-    width: 200px;
-    font-size: 8pt;
-}
-
-.img-produto {
-    width: 120px;
-    height: 120px;
-    border-radius: 10px;
-    overflow: hidden;
-    display: block;
-    object-fit: cover;
-    object-position: center center;
-}
-.adicionar-ao-carrinho {
-    text-align: center;
+    font-size: 14pt;
     margin: 0;
-    background-color: rgb(250, 192, 85);
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 5px;
 }
-
+.desc-text-produto {
+    font-size: 8pt;
+    padding: 0;
+    margin: 0;
+}
+.img-produto {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0;
+}
+.add-carrinho {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12pt;
+    background-color: orange;
+    margin: 5px 0 0 0;
+    border-radius: 0 0 10px 10px;
+}
 /* produto */
+
+
+
 
 /* === main === */
 
